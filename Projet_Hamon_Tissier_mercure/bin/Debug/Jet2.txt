@@ -1,0 +1,5 @@
+Regsvr32 C:\windows\system32\msexcl40.dll
+
+[sql]
+Provider=System.Data.SqlServerCe.3.5
+Data Source=mercure.sdf

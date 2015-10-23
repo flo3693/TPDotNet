@@ -11,12 +11,15 @@ namespace Projet_Hamon_Tissier_mercure
     {
         static void Main(string[] args)
         {
-            if(ExcelDataController.readXls()){
-                DataSet dataSet = ExcelDataController.DataSet;
-                foreach (DataRow row in dataSet.Tables[0].Rows) {
-                    Console.WriteLine(row[1].ToString()); // row[0] = 1ere colonne, row[1] = 2eme colonne
-                }
+            if (SQLDataController.connect())
+            {
+                if (SQLDataController.manageFamille("create", "pc"))
+                    Console.WriteLine("famille pc ajoutee");
+                else
+                    Console.WriteLine("pb creation famille pc");
             }
+            else
+                Console.WriteLine("pb connection");
         }
     }
 }
