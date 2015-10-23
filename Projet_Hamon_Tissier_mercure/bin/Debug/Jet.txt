@@ -1,0 +1,7 @@
+Regsvr32 C:\windows\system32\msexcl40.dll
+
+[xls]
+Provider=Microsoft.JET.OLEDB.4.0
+Data Source=Mercure.xls
+Extended Properties='Excel 8.0'
+Sheet=Materiels

@@ -1,0 +1,6 @@
+C:\Users\Anaëlle\Documents\Cours\Framework .Net\TP\Projet_Hamon_Tissier\Projet_Hamon_Tissier\bin\Debug\Projet_Hamon_Tissier.exe.config
+C:\Users\Anaëlle\Documents\Cours\Framework .Net\TP\Projet_Hamon_Tissier\Projet_Hamon_Tissier\obj\Debug\Projet_Hamon_Tissier.exe
+C:\Users\Anaëlle\Documents\Cours\Framework .Net\TP\Projet_Hamon_Tissier\Projet_Hamon_Tissier\obj\Debug\Projet_Hamon_Tissier.pdb
+C:\Users\Administrateur\Desktop\Projet_Hamon_Tissier\Projet_Hamon_Tissier\bin\Debug\Projet_Hamon_Tissier.exe.config
+C:\Users\Administrateur\Desktop\Projet_Hamon_Tissier\Projet_Hamon_Tissier\obj\Debug\Projet_Hamon_Tissier.exe
+C:\Users\Administrateur\Desktop\Projet_Hamon_Tissier\Projet_Hamon_Tissier\obj\Debug\Projet_Hamon_Tissier.pdb

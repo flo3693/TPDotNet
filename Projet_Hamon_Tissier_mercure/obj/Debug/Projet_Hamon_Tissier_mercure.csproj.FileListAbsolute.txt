@@ -1,0 +1,6 @@
+C:\Users\Administrateur\Desktop\Projet_Hamon_Tissier\Projet_Hamon_Tissier_mercure\bin\Debug\Projet_Hamon_Tissier_mercure.exe.config
+C:\Users\Administrateur\Desktop\Projet_Hamon_Tissier\Projet_Hamon_Tissier_mercure\bin\Debug\Projet_Hamon_Tissier_mercure.exe
+C:\Users\Administrateur\Desktop\Projet_Hamon_Tissier\Projet_Hamon_Tissier_mercure\bin\Debug\Projet_Hamon_Tissier_mercure.pdb
+C:\Users\Administrateur\Desktop\Projet_Hamon_Tissier\Projet_Hamon_Tissier_mercure\obj\Debug\Projet_Hamon_Tissier_mercure.csprojResolveAssemblyReference.cache
+C:\Users\Administrateur\Desktop\Projet_Hamon_Tissier\Projet_Hamon_Tissier_mercure\obj\Debug\Projet_Hamon_Tissier_mercure.exe
+C:\Users\Administrateur\Desktop\Projet_Hamon_Tissier\Projet_Hamon_Tissier_mercure\obj\Debug\Projet_Hamon_Tissier_mercure.pdb
