@@ -11,3 +11,6 @@ E:\Projet_Hamon_Tissier\Projet_Hamon_Tissier_mercure\obj\Debug\Projet_Hamon_Tiss
 E:\Projet_Hamon_Tissier\Projet_Hamon_Tissier_mercure\bin\Debug\mercure.sdf
 E:\Projet_Hamon_Tissier\Projet_Hamon_Tissier_mercure\bin\Debug\Projet_Hamon_Tissier_mercure.exe
 E:\Projet_Hamon_Tissier\Projet_Hamon_Tissier_mercure\bin\Debug\Projet_Hamon_Tissier_mercure.pdb
+C:\Users\Florian\Documents\GitHub\TPDotNet\Projet_Hamon_Tissier_mercure\bin\Debug\Projet_Hamon_Tissier_mercure.exe.config
+C:\Users\Florian\Documents\GitHub\TPDotNet\Projet_Hamon_Tissier_mercure\obj\Debug\Projet_Hamon_Tissier_mercure.exe
+C:\Users\Florian\Documents\GitHub\TPDotNet\Projet_Hamon_Tissier_mercure\obj\Debug\Projet_Hamon_Tissier_mercure.pdb

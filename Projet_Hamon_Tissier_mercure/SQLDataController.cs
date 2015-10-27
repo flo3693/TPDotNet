@@ -67,14 +67,62 @@ namespace Projet_Hamon_Tissier_mercure
             }
         }
 
-        public static bool manageSousFamille()
+        public static bool manageSousFamille(String type, String nomSsFamille, int idSsFamille = 0, int idFamille = 0)
         {
-            return false;
+            switch (type)
+            {
+                case "create":
+                    if (exists("SousFamille", nomSsFamille, "nom_ssfamille"))
+                        return false;
+                    cmd = new SqlCommand("Insert into SousFamille(nom_ssfamille, id_famille) Value(" + nomSsFamille + ","+ idFamille +")", conn);
+                    return cmd.ExecuteNonQuery().Equals(1);
+                case "updateNom":
+                    if (!exists("SousFamille", idSsFamille.ToString(), "id_ssfamille"))
+                        return false;
+                    cmd = new SqlCommand("Update SousFamille Set nom_ssfamille =" + nomSsFamille + " WHERE id_ssfamille=" + idSsFamille, conn);
+                    return cmd.ExecuteNonQuery().Equals(1);
+                case "updateFamille":
+                    if (!exists("SousFamille", idSsFamille.ToString(), "id_ssfamille"))
+                        return false;
+                    cmd = new SqlCommand("Update SousFamille Set id_famille =" + idFamille + " WHERE id_ssfamille=" + idSsFamille, conn);
+                    return cmd.ExecuteNonQuery().Equals(1);
+                case "delete":
+                    if (!exists("SousFamille", idSsFamille.ToString(), "id_ssfamille"))
+                        return false;
+                    cmd = new SqlCommand("Delete from SousFamille where id_ssfamille = " + idSsFamille, conn);
+                    return cmd.ExecuteNonQuery().Equals(1);
+                default:
+                    return false;
+            }
         }
 
-        public static bool manageArticle()
+        public static bool manageArticle(String type, String nomArticle, int idArticle = 0, int idMarque = 0)
         {
-            return false;
+            switch (type)
+            {
+                case "create":
+                    if (exists("Article", nomArticle, "nom_article"))
+                        return false;
+                    cmd = new SqlCommand("Insert into Article(nom_article, id_marque) Value(" + nomArticle + "," + idMarque + ")", conn);
+                    return cmd.ExecuteNonQuery().Equals(1);
+                case "updateNom":
+                    if (!exists("Article", idArticle.ToString(), "id_article"))
+                        return false;
+                    cmd = new SqlCommand("Update Article Set nom_article =" + nomArticle + " WHERE id_article=" + idArticle, conn);
+                    return cmd.ExecuteNonQuery().Equals(1);
+                case "updateMarque":
+                    if (!exists("Article", idArticle.ToString(), "id_article"))
+                        return false;
+                    cmd = new SqlCommand("Update Article Set id_marque =" + idMarque + " WHERE id_article=" + idArticle, conn);
+                    return cmd.ExecuteNonQuery().Equals(1);
+                case "delete":
+                    if (!exists("Article", idArticle.ToString(), "id_article"))
+                        return false;
+                    cmd = new SqlCommand("Delete from Article where id_article = " + idArticle, conn);
+                    return cmd.ExecuteNonQuery().Equals(1);
+                default:
+                    return false;
+            }
         }
 
         public static bool manageMarque(){
