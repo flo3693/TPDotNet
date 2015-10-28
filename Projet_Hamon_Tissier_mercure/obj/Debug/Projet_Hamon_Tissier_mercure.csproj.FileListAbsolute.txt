@@ -14,3 +14,10 @@ E:\Projet_Hamon_Tissier\Projet_Hamon_Tissier_mercure\bin\Debug\Projet_Hamon_Tiss
 C:\Users\Florian\Documents\GitHub\TPDotNet\Projet_Hamon_Tissier_mercure\bin\Debug\Projet_Hamon_Tissier_mercure.exe.config
 C:\Users\Florian\Documents\GitHub\TPDotNet\Projet_Hamon_Tissier_mercure\obj\Debug\Projet_Hamon_Tissier_mercure.exe
 C:\Users\Florian\Documents\GitHub\TPDotNet\Projet_Hamon_Tissier_mercure\obj\Debug\Projet_Hamon_Tissier_mercure.pdb
+E:\TPDotNet\Projet_Hamon_Tissier_mercure\bin\Debug\Projet_Hamon_Tissier_mercure.exe.config
+E:\TPDotNet\Projet_Hamon_Tissier_mercure\obj\Debug\Projet_Hamon_Tissier_mercure.exe
+E:\TPDotNet\Projet_Hamon_Tissier_mercure\obj\Debug\Projet_Hamon_Tissier_mercure.pdb
+E:\TPDotNet\Projet_Hamon_Tissier_mercure\bin\Debug\mercure.sdf
+E:\TPDotNet\Projet_Hamon_Tissier_mercure\bin\Debug\Projet_Hamon_Tissier_mercure.exe
+E:\TPDotNet\Projet_Hamon_Tissier_mercure\bin\Debug\Projet_Hamon_Tissier_mercure.pdb
+E:\TPDotNet\Projet_Hamon_Tissier_mercure\obj\Debug\Projet_Hamon_Tissier_mercure.csprojResolveAssemblyReference.cache
